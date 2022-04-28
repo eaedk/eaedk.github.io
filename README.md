@@ -9,7 +9,7 @@ I created this webpage to have a fancy way of expression and sharing. I have bee
 
 # Acknowledgments
 ## My Team
-To my beloved team made of [Dric](https://dric2018.github.io/), [Nazario](https://twitter.com/nzario9) and Me. It's always a pleasure to think, code and have fun with you.
+To my beloved team made of [Dric](https://dric2018.github.io/), [Nazario](https://twitter.com/nzario9) and Me. It's always a pleasure to think, code and have fun with you. Thank you very much for all our adventures.
 
 ## To hidden ones
 To companies and people that helped me and that are still doing for my career in Tech, thank you all. I never forget any opportunities you present me, and also your support.  
