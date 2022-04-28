@@ -10,33 +10,55 @@ permalink: about:output_ext
   <div class="about-container">
     <section class="about-header">
       <div class="author-image-container">
-        <a href='{{ site.website }}'><img src="{{ relativebase }}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="{{site.author}}"></a>
+        <a href='{{ site.website }}'><img
+            src="{{ relativebase }}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}"
+            alt="{{site.author}}"></a>
       </div>
       <h3>{{site.author}}</h3>
       <p class="subtitle">{{site.about-author}}</p>
     </section>
     <section class="about-body">
       <ul class="contact-list">
-      {% if site.twitter %}
-        <li class="twitter"><a class="twitter" href="https://twitter.com/{{site.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
-      {% endif %}
-      {% if site.linkedin %}
-        <li class="linkedin"><a class="linkedin" href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-      {% endif %}
-      {% if site.github %}
-        <li class="github"><a class="github" href="https://github.com/{{site.github}}" target="_blank"><i class="fa fa-github"></i></a></li>
-      {% endif %}
-      {% if site.email %}
+        {% if site.twitter %}
+        <li class="twitter"><a class="twitter" href="https://twitter.com/{{site.twitter}}" target="_blank"><i
+              class="fa fa-twitter"></i></a></li>
+        {% endif %}
+        {% if site.linkedin %}
+        <li class="linkedin"><a class="linkedin" href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank"><i
+              class="fa fa-linkedin"></i></a></li>
+        {% endif %}
+        {% if site.github %}
+        <li class="github"><a class="github" href="https://github.com/{{site.github}}" target="_blank"><i
+              class="fa fa-github"></i></a></li>
+        {% endif %}
+        {% if site.email %}
         <li class="email"><a class="email" href="mailto:{{site.email}}"><i class="fa fa-envelope-o"></i></a></li>
-      {% endif %}
-      {% if site.bandcamp %}
-        <li class="bandcamp"><a class="bandcamp" href="https://{{site.bandcamp}}.bandcamp.com" target="_blank"><i class="fa fa-bandcamp" aria-hidden="true"></i></a></li>
-      {% endif %}
-      {% if site.stackoverflow %}
-      <li class="stackoverflow"><a class="stackoverflow" href="https://stackoverflow.com/users/{{site.stackoverflow}}" target="_blank">
-        <i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
-      {% endif %}
+        {% endif %}
+        {% if site.bandcamp %}
+        <li class="bandcamp"><a class="bandcamp" href="https://{{site.bandcamp}}.bandcamp.com" target="_blank"><i
+              class="fa fa-bandcamp" aria-hidden="true"></i></a></li>
+        {% endif %}
+        {% if site.stackoverflow %}
+        <li class="stackoverflow"><a class="stackoverflow" href="https://stackoverflow.com/users/{{site.stackoverflow}}"
+            target="_blank">
+            <i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
+        {% endif %}
       </ul>
+    </section> <!-- End About Body-->
+    <section class="about-header">
+      <h3>My Resume</h3>
+      <p class="subtitle">Below is my resume. It is updated automatically when I add the most recent information about
+        me on the template hosted on my Drive. Do not hesitate to contact me to ask for more details because I prefer to
+        work than update my resume 🤖, and non-disclosure agreements you know. </p>
+    </section>
+    <section class="about-body">
+      <img
+        src="https://docs.google.com/presentation/d/1r4u4FJMC4jDRI9-4PIBqfmH2AXfE7iwl/export/png?id=1r4u4FJMC4jDRI9-4PIBqfmH2AXfE7iwl"
+        alt="{{site.author}}">
+      <center><a
+          href="https://docs.google.com/presentation/d/1r4u4FJMC4jDRI9-4PIBqfmH2AXfE7iwl/export/pdf?id=1r4u4FJMC4jDRI9-4PIBqfmH2AXfE7iwl">
+          <h3> Download my resume as pdf file </h3>
+        </a></center>
     </section> <!-- End About Body-->
   </div> <!-- End About Container -->
 </div> <!-- End Small Wrapper -->
